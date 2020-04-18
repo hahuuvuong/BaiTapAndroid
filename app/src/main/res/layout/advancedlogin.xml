@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập vào hệ thống"
+            android:padding="4dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="CSCOM"
+        android:textSize="80sp"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:gravity="center_horizontal">
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="TenDangNhap"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            ></EditText>
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="*******"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            ></EditText>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:text="Đăng nhập"
+
+            android:layout_margin="20dp"
+            android:textAllCaps="false"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu thông tin đăng nhập"></androidx.appcompat.widget.AppCompatCheckedTextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
